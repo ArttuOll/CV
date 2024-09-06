@@ -1,0 +1,47 @@
+﻿/*
+  Variables
+ */
+:root {
+  --font-heading: small-caps normal 100% poppinsextralight;
+}
+
+/*
+  Fonts
+ */
+@font-face {
+  font-family: "poppinsextralight";
+  src:
+    url("./assets/poppins-extralight-webfont.woff2") format("woff2"),
+    url("./assets/poppins-extralight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinsregular";
+  src:
+    url("./assets/poppins-regular-webfont.woff2") format("woff2"),
+    url("./assets/poppins-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+  Styles
+ */
+html {
+  font-family: poppinsregular sans-serif;
+}
+
+body {
+  font: 100%/1.6 "poppinsregular";
+}
+
+h1 {
+  font: var(--font-heading);
+  font-size: 450%;
+}
+
+header {
+  align-items: center;
+}
