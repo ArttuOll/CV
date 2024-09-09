@@ -2,7 +2,8 @@
   Variables
  */
 :root {
-  --font-heading: small-caps normal 100% poppinsextralight;
+  --font-heading: small-caps normal 4rem poppinsextralight;
+  --font-subheading: 1rem poppinsextralight;
   --color-background: #9f9f9f;
   --color-foreground: white;
 }
@@ -47,10 +48,13 @@ body {
 
 h1 {
   font: var(--font-heading);
-  font-size: 450%;
-  text-align: center;
+}
+
+[role="doc-subtitle"] {
+  font: var(--font-subheading);
 }
 
 header {
   align-items: center;
+  text-align: center;
 }
