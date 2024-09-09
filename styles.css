@@ -3,6 +3,8 @@
  */
 :root {
   --font-heading: small-caps normal 100% poppinsextralight;
+  --color-background: #9f9f9f;
+  --color-foreground: white;
 }
 
 /*
@@ -31,15 +33,22 @@
  */
 html {
   font-family: poppinsregular sans-serif;
+  background-color: var(--color-background);
 }
 
 body {
-  font: 100%/1.6 "poppinsregular";
+  background-color: var(--color-foreground);
+  height: calc(100dvh - 2rem);
+  width: 60dvw;
+  margin: 1rem auto;
+  padding: 2rem;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.13);
 }
 
 h1 {
   font: var(--font-heading);
   font-size: 450%;
+  text-align: center;
 }
 
 header {
