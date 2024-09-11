@@ -66,3 +66,15 @@ header {
   align-items: center;
   text-align: center;
 }
+
+#highlights {
+  display: flex;
+}
+
+img {
+  max-width: 400px;
+  max-height: 600px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
