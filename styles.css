@@ -2,8 +2,8 @@
   Variables
  */
 :root {
-  --font-heading: small-caps normal 4rem "poppinsextralight";
-  --font-subheading: 1rem "poppinsextralight";
+  --font-heading: small-caps normal clamp(1rem, 7vw, 4.5rem) "poppinsextralight";
+  --font-subheading: clamp(1rem, 3vw, 1.5rem) "poppinsextralight";
   --color-background: #9f9f9f;
   --color-foreground: white;
 }
@@ -52,6 +52,7 @@ body > section {
 
 h1 {
   font: var(--font-heading);
+  text-wrap: balance;
 }
 
 h2 {
@@ -60,6 +61,7 @@ h2 {
 
 [role="doc-subtitle"] {
   font: var(--font-subheading);
+  text-wrap: balance;
 }
 
 header {
@@ -82,4 +84,8 @@ header {
   img {
     order: -1;
   }
+}
+
+p {
+  text-wrap: balance;
 }
