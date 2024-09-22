@@ -90,3 +90,7 @@ header {
 p {
   text-wrap: balance;
 }
+
+.table-overflow-wrapper {
+  overflow-x: auto;
+}
