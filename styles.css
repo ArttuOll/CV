@@ -54,6 +54,10 @@ body {
   }
 }
 
+section {
+  padding-bottom: 1rem;
+}
+
 h1 {
   font: var(--font-heading);
   text-wrap: balance;
@@ -96,4 +100,15 @@ p {
 
 .table-overflow-wrapper {
   overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: start;
+  padding: 1rem 1rem 1rem 0;
+  align-content: baseline;
 }
