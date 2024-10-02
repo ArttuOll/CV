@@ -47,6 +47,17 @@ body {
   }
 }
 
+.skip-to-content-link {
+  background: white;
+  position: absolute;
+  transform: translateY(-400%);
+  transition: transform 0.3s;
+}
+
+.skip-to-content-link:focus {
+  transform: translateY(0%);
+}
+
 section {
   padding-bottom: 1rem;
 }
