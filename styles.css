@@ -28,6 +28,10 @@
 html {
   font-family: "Charis SIL", sans-serif;
   background-color: var(--color-background);
+
+  @media print {
+    background-color: inherit;
+  }
 }
 
 body {
@@ -44,6 +48,12 @@ body {
     margin: 1rem;
     padding: 2rem;
     width: auto;
+  }
+
+  @media print {
+    box-shadow: none;
+    background-color: white;
+    padding: 0;
   }
 }
 
@@ -151,5 +161,9 @@ footer {
     display: flex;
     gap: 0.2rem;
     align-items: center;
+  }
+
+  @media print {
+    display: none;
   }
 }
