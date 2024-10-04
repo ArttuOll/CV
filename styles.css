@@ -50,6 +50,11 @@ body {
     width: auto;
   }
 
+  @media (max-width: 400px) {
+    margin: 0;
+    width: auto;
+  }
+
   @media print {
     box-shadow: none;
     background-color: white;
