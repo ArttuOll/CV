@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Arttu Ollin CV" />
+    <meta name="color-scheme" content="light dark" />
     <title>Arttu Ollin CV</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
@@ -29,6 +30,13 @@
     <a class="skip-to-content-link" href="#main" tabindex="0">
       Siirry sisältöön
     </a>
+
+    <section aria-label="Väriteeman kytkin" id="theme-buttons">
+      <button aria-pressed="false" value="light">Vaalea</button>
+      <button aria-pressed="true" value="light dark">Järjestelmä</button>
+      <button aria-pressed="false" value="dark">Tumma</button>
+    </section>
+
     <section class="title">
       <h1>Arttu Olli</h1>
       <div role="doc-subtitle">Full Stack -kehittäjä</div>
@@ -204,5 +212,7 @@
         </li>
       </ul>
     </footer>
+
+    <script src="scripts.js"></script>
   </body>
 </html>
