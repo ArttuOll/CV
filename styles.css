@@ -5,10 +5,8 @@
   --font-heading: normal normal clamp(1rem, 7vw, 4.5rem) "Lora";
   --font-subheading: clamp(1rem, 3vw, 1.5rem) "Lora";
   --color-background: #9f9f9f;
-  --color-foreground-light: white;
-  --color-foreground-dark: black;
-  --color-text-light: black;
-  --color-text-dark: white;
+  --color-foreground: light-dark(white, black);
+  --color-text: light-dark(black, white);
   --corner-roundness: 1rem;
 }
 
@@ -39,11 +37,8 @@ html {
 }
 
 body {
-  background-color: light-dark(
-    var(--color-foreground-light),
-    var(--color-foreground-dark)
-  );
-  color: light-dark(var(--color-text-light), var(--color-text-dark));
+  background-color: var(--color-foreground);
+  color: var(--color-text);
   width: 65em;
   margin: 1rem auto;
   padding: 4rem;
@@ -67,8 +62,8 @@ body {
 
   @media print {
     box-shadow: none;
-    background-color: var(--color-foreground-light);
-    color: var(--color-text-light);
+    background-color: white;
+    color: black;
     padding: 0;
   }
 }
