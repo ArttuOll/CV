@@ -155,6 +155,7 @@ footer {
     display: flex;
     gap: 1rem;
     list-style: none;
+    justify-content: flex-end;
   }
 
   li {
