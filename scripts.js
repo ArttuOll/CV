@@ -19,7 +19,7 @@ function onThemeToggleClick(event) {
 }
 
 function initializeTheme() {
-  const theme = localStorage.getItem("theme");
+  const theme = localStorage.getItem("theme") ?? "light dark";
   colorScheme.content = theme;
 
   switchButtons.forEach((button) =>
