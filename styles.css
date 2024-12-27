@@ -137,23 +137,10 @@ img {
 
 p,
 dd,
+dt,
 td {
   text-wrap: balance;
-}
-
-.table-overflow-wrapper {
-  overflow-x: auto;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-th,
-td {
-  text-align: start;
-  padding: 0.85rem 0.85rem 0.85rem 0;
-  align-content: baseline;
+  overflow-wrap: break-word;
 }
 
 ul > li {
@@ -162,7 +149,7 @@ ul > li {
 
 dl {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 35% auto;
   gap: 1rem;
 }
 
