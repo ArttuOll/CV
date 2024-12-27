@@ -145,6 +145,11 @@ dl {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
   ul {
     padding: 0;
     display: flex;
@@ -166,8 +171,31 @@ footer {
 
 #theme-buttons {
   align-self: flex-end;
+  display: flex;
+  padding: 0.125rem;
+  width: fit-content;
+  border: 0.125em solid var(--color-text);
+  border-radius: calc(infinity * 1px);
 
   @media print {
     display: none;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 0.875rem;
+  }
+}
+
+#theme-buttons button {
+  margin: 0;
+  border: none;
+  border-radius: 100px;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--color-text);
+
+  &[aria-pressed="true"] {
+    background-color: var(--color-text);
+    color: var(--color-foreground);
   }
 }
