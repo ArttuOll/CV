@@ -51,7 +51,7 @@ body {
     padding: 2em;
   }
 
-  @media (width <= 430px) {
+  @media (width <= 512px) {
     margin: 0;
     border-radius: 0;
   }
