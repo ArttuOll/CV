@@ -131,8 +131,12 @@ ul > li {
 
 dl {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 45%));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1em;
+  
+  @media (width <= 512px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 /*
