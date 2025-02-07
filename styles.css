@@ -2,7 +2,7 @@
   Variables
  */
 :root {
-  --font-heading: normal normal clamp(1rem, 7vw, 4.5rem) "Lora";
+  --font-heading: normal normal clamp(1.125rem, 7vw, 4.5rem) "Lora";
   --font-subheading: clamp(1rem, 3vw, 1.5rem) "Lora";
   --color-background: #9f9f9f;
   --color-foreground: light-dark(white, black);
