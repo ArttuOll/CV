@@ -109,12 +109,6 @@ footer {
     justify-content: flex-end;
   }
 
-  li {
-    display: flex;
-    gap: 0.2em;
-    align-items: center;
-  }
-
   @media print {
     display: none;
   }
@@ -134,7 +128,7 @@ ul > li {
 
 dl {
   display: grid;
-  grid-template-columns: 35% auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 45%));
   gap: 1em;
 }
 
