@@ -1,0 +1,14 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard": "^37.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArttuOll/CV.git"
+  },
+  "author": "Arttu Olli"
+}
