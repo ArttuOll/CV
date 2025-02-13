@@ -56,6 +56,10 @@ body {
     border-radius: 0;
   }
 
+  @media (width < 375px) {
+    padding: 0;
+  }
+
   @media print {
     box-shadow: none;
     background-color: white;
@@ -133,7 +137,7 @@ dl {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1em;
-  
+
   @media (width <= 512px) {
     grid-template-columns: 1fr;
   }
