@@ -143,6 +143,15 @@ dl {
   }
 }
 
+a {
+  color: black;
+}
+
+a:hover,
+a:focus {
+  color: #585858;
+}
+
 /*
   Skip to content link
  */
