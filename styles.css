@@ -144,12 +144,12 @@ dl {
 }
 
 a {
-  color: black;
+  color: var(--color-text);
 }
 
 a:hover,
 a:focus {
-  color: #585858;
+  color: light-dark(#585858, #969696);
 }
 
 /*
