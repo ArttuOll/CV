@@ -149,7 +149,7 @@ a {
 
 a:hover,
 a:focus {
-  color: light-dark(#585858, #969696);
+  color: light-dark(#969696, #585858);
 }
 
 /*
